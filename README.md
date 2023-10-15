@@ -21,3 +21,17 @@ Case outcome and vote data were extracted from the the Spaeth Supreme Court data
 6.   **JUSTICE_VOTE** in {PETITIONER,RESPONDENT,NA}: PETITIONER if the Justice eventually voted for the petitioner, RESPONDENT if the Justice eventually voted for the respondent, NA if the Justice did not vote on this case or the speaker is not a Justice.
 7.   **PRESENTATION_SIDE** in {PETITIONER, RESPONDENT}: PETITIONER if the line was uttered in the sections supporting the petitioner's case, RESPONDENT if the line was uttered in the section supporting the respondent's case. (The field is left empty if the utterance appears outside these sections, such as in the preamble of the argument.)  Note that while all Justices can speak in both sections, only lawyers supporting the petitioner's case will speak in the PETITIONER section, and only lawyers supporting the respondent's case will speak in the RESPONDENT section.  A detailed description of the structure of the Oral Arguments can be found at: http://www.supremecourt.gov/oral_arguments/ .
 8.   **UTTERANCE** the text produced by the speaker.
+
+## BibTeX Citation
+
+```
+@misc{Esashika_2023,
+title		= {Preprocessed Supreme Court Dialogs Corpus v1.01 (released September 2012)},
+url		= {https://github.com/esashika/supreme_court_corpus},
+journal		= {https://github.com/esashika/supreme_court_corpus},
+publisher	= {Rhedson Esashika},
+author		= {Esashika, Rhedson},
+year		= {2023},
+month		= {Sep}
+}
+``` 
